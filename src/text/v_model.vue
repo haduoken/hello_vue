@@ -5,7 +5,8 @@ const text = ref('')
 
 </script>
 
+
 <template>
-  <input v-model="text" placeholder="sdf" />
-  <p>{{ text }}</p>
+  <input v-model="text" placeholder="sdf">
+  <p>text is {{ text }}</p>
 </template>
